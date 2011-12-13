@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4ECFE51496A35800BAC6C9 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4ECFE41496A35800BAC6C9 /* icon@2x.png */; };
+		2D4ECFE81496A35B00BAC6C9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4ECFE71496A35B00BAC6C9 /* icon.png */; };
 		2DF338DA144B443A00B36497 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF338D9144B443A00B36497 /* UIKit.framework */; };
 		2DF338DC144B443A00B36497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF338DB144B443A00B36497 /* Foundation.framework */; };
 		2DF338DE144B443A00B36497 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF338DD144B443A00B36497 /* CoreGraphics.framework */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D4ECFE41496A35800BAC6C9 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		2D4ECFE71496A35B00BAC6C9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		2DF338D5144B443A00B36497 /* CoreDataTutorialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTutorialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF338D9144B443A00B36497 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2DF338DB144B443A00B36497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +63,8 @@
 		2DF338CA144B443900B36497 = {
 			isa = PBXGroup;
 			children = (
+				2D4ECFE71496A35B00BAC6C9 /* icon.png */,
+				2D4ECFE41496A35800BAC6C9 /* icon@2x.png */,
 				2DF338F5144B446D00B36497 /* CoreLocation.framework */,
 				2DF338E1144B443A00B36497 /* CoreDataTutorialApp */,
 				2DF338D8144B443A00B36497 /* Frameworks */,
@@ -162,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF338E6144B443A00B36497 /* InfoPlist.strings in Resources */,
+				2D4ECFE51496A35800BAC6C9 /* icon@2x.png in Resources */,
+				2D4ECFE81496A35B00BAC6C9 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
